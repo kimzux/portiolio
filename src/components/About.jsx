@@ -26,7 +26,7 @@ const About = () => {
                         </div>
                         <a href="mailto:kimzux0718@gmail.com" class="relative inline-block px-12 py-3 bg-gradient-to-r mt-8 from-purple to-pincolor-600 text-xl text-white font-bold rounded-md shadow-lg outline-none transition-all duration-200 after:inline-block after:w-full after:h-full after:absolute after:inset-0 after:bg-gradient-to-r after:from-purple after:to-pincolor-700 after:rounded-full after:-z-10 after:duration-500 hover:from-purple hover:to-pincolor-700 hover:-translate-y-[3px] hover:shadow-2xl hover:after:scale-x-[1.4] hover:after:scale-y-[1.6] hover:after:opacity-0 focus:-translate-y-[1px] focus:animate-pulsate lg:px-16 lg:py-4">Contact</a>
                     </div>
-                    <div class="w-full ml-8">
+                    <div class="w-full xl:ml-8 2xl:ml-8 lg:ml-8">
                         <h3 class="mb-6 text-lg font-bold mt-0 xl:mt-0 2xl:mt-0 lg:mt-0 ">My Skills</h3>
                         <div class="flex flex-col space-y-4">
                             <div class="flex space-x-4">
