@@ -19,7 +19,7 @@ function Contact() {
                         </div>
                      </div>
                 </div><hr />
-            <div class="mt-8 text-center text-sm"><p>© Copyright 2023. Made by <span><a href="http://mfonpeter.netlify.app/" class="inlne-block font-bold underline">Zulfa Rajabu</a></span>
+            <div class="mt-8 text-center text-sm"><p>© Copyright 2023. Made by <span><a href="https://zulfa-rajabu-portfolio.netlify.app/" class="inlne-block font-bold underline">Zulfa Rajabu</a></span>
                  </p>
             </div>
             </footer>
