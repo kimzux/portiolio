@@ -7,10 +7,10 @@ function Home() {
         <div name="home" className='bg-gradient-to-b  via-white from-pincolor-100 to-pincolor-900 h-full w-full pt-16 pb-16 lg:pt-20' >
             
         <div className='max-w-sreen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row lg:flex-row xl:flex-row 2xl:flex-row'>
-        <div className='mt-6'>
-            <img src={HeroImage} alt="my profile" className="rounded-2xl mt-[10px] mx-auto w-2/3 md:w-full " />
+        <div>
+            <img src={HeroImage} alt="my profile" className="rounded-2xl  mx-auto w-2/3 md:w-full " />
         </div>
-            <div className='flex flex-col mt-2 h-full ml-2 mb-[10px} xl:justify-center'>
+            <div className='flex flex-col mt-4 h-full ml-2 mb-[10px} xl:justify-center'>
                 <h2 className='text-5xl sm:text-7xl font-bold'>I'm a frontend<br/> Developer</h2>
                 <p className='text-gray py-4 max-w-md'>I'm a Freelance UI/UX Designer and Developer based in London, Engl and. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
                 <div>
