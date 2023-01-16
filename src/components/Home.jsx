@@ -12,7 +12,7 @@ function Home() {
         </div>
             <div className='flex flex-col mt-4 h-full ml-2 mb-[10px} xl:justify-center'>
                 <h2 className='text-5xl sm:text-7xl font-bold'>I'm a frontend<br/> Developer</h2>
-                <p className='text-gray py-4 max-w-md'>A Frontend Web Developer focused on building the frontend of websites that leads to the success of the overall product, I enjoy sharing and interacting with people in the Web Dev world. I believe that this helps me to grow and learn in this field</p>
+                <p className='text-gray py-4 max-w-md'>A Frontend Web Developer focused on building the frontend of websites that leads to the success of the overall product, I enjoy sharing and interacting with people in the Web Dev world, believe this helps me to grow and learn in this field</p>
                 <div>
                     <Link to="project" smooth duration={500}>
                         <button className='text-white w-fix px-6 my-2 flex items-center rounded-md bg-gradient-to-r from-purple to-pincolor-800 cursor-pointer active:scale-[.98] active:duration-50 transition-all hover:scale-[1.01]  ease-in-out  transform py-4  '>Projects
