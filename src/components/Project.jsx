@@ -49,7 +49,7 @@ const Project = () => {
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full '>
             <div className='pb-8 xl:px-2 mb-8 text-center lg:mb-16'>
                 <p className='text-4xl font-bold inline border-b-4 border-purple '>Projects</p> <br /><br />
-                <p className="xl:max-w-2xl px-4 mx-auto text-lg text-gray-800 sm:px-10 md:text-xl md:max-w-3xl md:px-0">Check out of my works right here</p>
+                <p className="xl:max-w-2xl px-4 mx-auto text-lg text-gray-800 sm:px-10 md:text-xl md:max-w-3xl md:px-0">Here you will find some of the personal projects that I created from scratch based on my current skillset. Click on the live link to find out more about each project.</p>
             </div>
             <div className='container mx-auto max-w-7xl flex flex-col space-y-12 px-4 sm:px-10 lg:flex-row lg:space-y-0 lg:space-x-16 xl:flex-row xl:space-y-0 xl:space-x-16 2xl:flex-row 2lx:space-y-0 2lx:space-x-16'>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 xl:grid-cols-3 2xl:grid-cols-3 lg:grid-cols-3'>
