@@ -48,7 +48,7 @@ const Project = () => {
         <div name="project" className='w-full h-full bg-gradient-to-b  via-white from-pincolor-100 to-pincolor-900 pt-16 pb-16 lg:pt-20'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full '>
             <div className='pb-8 xl:px-2 mb-8 text-center lg:mb-16'>
-                <p className='text-4xl font-bold inline border-b-4 border-purple '>Project</p> <br /><br />
+                <p className='text-4xl font-bold inline border-b-4 border-purple '>Projects</p> <br /><br />
                 <p className="xl:max-w-2xl px-4 mx-auto text-lg text-gray-800 sm:px-10 md:text-xl md:max-w-3xl md:px-0">Check out of my works right here</p>
             </div>
             <div className='container mx-auto max-w-7xl flex flex-col space-y-12 px-4 sm:px-10 lg:flex-row lg:space-y-0 lg:space-x-16 xl:flex-row xl:space-y-0 xl:space-x-16 2xl:flex-row 2lx:space-y-0 2lx:space-x-16'>
