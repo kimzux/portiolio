@@ -14,7 +14,7 @@ function Contact() {
                         <h4 class="mb-4 text-2xl font-bold uppercase">Social Media</h4>
                         <div class="flex space-x-4">
                             <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/zulfa-rajabu-9420461a4/" class="inline-block transition-all hover:scale-110"><FaLinkedin size={25}/></a>
-                            <a rel="noreferrer" target="_blank" href="flex-row sm:space-y-0" class="inline-block transition-all hover:scale-110"> <FaGithub size={25}/></a>
+                            <a rel="noreferrer" target="_blank" href="https://github.com/kimzux/" class="inline-block transition-all hover:scale-110"> <FaGithub size={25}/></a>
                             <a rel="noreferrer" target="_blank" href="https://twitter.com/" class="inline-block transition-all hover:scale-110"><FaTwitter size={25}/></a>
                         </div>
                      </div>
