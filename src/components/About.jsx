@@ -13,10 +13,7 @@ const About = () => {
                     <div className='w-full'>
                         <p className='font-bold text-xl mt-0'>Get to know me!</p><br />
                         <div className='flex flex-col items-center space-y-4 mb-8 text-lg text-gray-800 lg:mb-10'>
-                            <p className='text-6 text-justify '>I'm a Frontend Web Developer with a passion for building up beautiful and responsive websites.
-                                I have worked on a few projects that demonstrates my ability
-                                to make use of the concepts I've learned.
-                                You can check them out in the Projects section.</p>
+                
                             <br />
                             <p className='text-6 text-justify '>I enjoy sharing and interacting with people in the Web Dev world. I believe that this helps me to grow and learn in this field.
                                 You can connect with me on LinkedIn and Twitter where I share my experiences and thoughts on various topics related to Web Development.
