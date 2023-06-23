@@ -2,6 +2,7 @@ import React from 'react'
 import projectOne from '../assets/portfolio/projectOne.jpg';
 import projectTwo from '../assets/portfolio/projectTwo.jpg';
 import projectThree from '../assets/portfolio/projectThree.jpg';
+import projectFour from '../assets/portfolio/projectFour.png';
 const Project = () => {
     const projects = [
         {
@@ -24,9 +25,9 @@ const Project = () => {
         },
         {
             id: 4,
-            src: projectThree,
-            demo: 'http://training.thinkmate.co.tz/',
-            code: 'https://github.com/kimzux/training-managemnet-system'
+            src: projectFour,
+            demo: 'https://simple-webpage-iota.vercel.app/',
+            code: 'https://github.com/kimzux/simple-webpage'
         },
         {
             id: 5,

@@ -15,7 +15,7 @@ function Contact() {
                         <div class="flex space-x-4">
                             <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/zulfa-rajabu-9420461a4/" class="inline-block transition-all hover:scale-110"><FaLinkedin size={25}/></a>
                             <a rel="noreferrer" target="_blank" href="https://github.com/kimzux/" class="inline-block transition-all hover:scale-110"> <FaGithub size={25}/></a>
-                            <a rel="noreferrer" target="_blank" href="https://twitter.com/" class="inline-block transition-all hover:scale-110"><FaTwitter size={25}/></a>
+                            <a rel="noreferrer" target="_blank" href="https://twitter.com/Zulfa44762165?t=eyGylZDqdVPZzELSUftQcA&s=03" class="inline-block transition-all hover:scale-110"><FaTwitter size={25}/></a>
                         </div>
                      </div>
                 </div><hr />
