@@ -1,7 +1,7 @@
 import React from "react";
 import projectOne from "../assets/portfolio/projectOne.jpg";
 import projectTwo from "../assets/portfolio/projectTwo.jpg";
-import projectThree from "../assets/portfolio/projectThree.jpg";
+import projectThree from "../assets/portfolio/hazuin.png";
 import projectFour from "../assets/portfolio/projectFour.png";
 const Project = () => {
   const projects = [
@@ -33,7 +33,7 @@ const Project = () => {
       id: 5,
       src: projectThree,
       demo: "https://680f67dc214da5879f83a80d--hazuin.netlify.app/",
-      code: "https://github.com/kimzux/hazuin-website",
+      code: "https://github.com/kimzux/hazuin-website,",
     },
     {
       id: 6,
