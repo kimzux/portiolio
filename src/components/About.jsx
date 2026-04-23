@@ -91,9 +91,7 @@ const About = () => {
                 <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>GitHub</span>
                 </div>
-                 <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
-                  <span>CI & CD</span>
-                </div>
+               
               </div>
               <div class="flex space-x-4">
                 <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
@@ -101,6 +99,9 @@ const About = () => {
                 </div>
                 <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>Responsive Design</span>
+                </div>
+                  <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                  <span>CI & CD</span>
                 </div>
               </div>
             </div>
