@@ -73,8 +73,14 @@ const About = () => {
                 <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>JavaScript</span>
                 </div>
+           <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                  <span>Typescript</span>
+                </div>
                 <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>React</span>
+                </div>
+                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                  <span>Next</span>
                 </div>
                 <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>Vue</span>
@@ -84,6 +90,9 @@ const About = () => {
                 </div>
                 <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>GitHub</span>
+                </div>
+                 <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                  <span>CI & CD</span>
                 </div>
               </div>
               <div class="flex space-x-4">
