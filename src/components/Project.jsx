@@ -39,8 +39,8 @@ const Project = () => {
     {
       id: 6,
       src: projectThree,
-      demo: "http://training.thinkmate.co.tz/",
-      code: "https://github.com/kimzux/training-managemnet-system",
+      demo: "https://food-delivery-system-green.vercel.app/",
+      code: "https://github.com/kimzux/food-delivery-system",
     },
   ];
 
