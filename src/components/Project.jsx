@@ -4,6 +4,7 @@ import projectTwo from "../assets/portfolio/projectTwo.jpg";
 import projectThree from "../assets/portfolio/projectThree.jpg";
 import projectFour from "../assets/portfolio/projectFour.png";
 import projectFive from "../assets/portfolio/hazuin.png";
+import projectSix from "../assets/portfolio/food.png";
 const Project = () => {
   const projects = [
     {
@@ -38,7 +39,7 @@ const Project = () => {
     },
     {
       id: 6,
-      src: projectThree,
+      src: projectSix,
       demo: "https://food-delivery-system-green.vercel.app/",
       code: "https://github.com/kimzux/food-delivery-system",
     },
