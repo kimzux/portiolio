@@ -5,17 +5,15 @@ import NavBar from "./components/NavBar";
 import Project from "./components/Project";
 import SocialLinks from "./components/SocialLinks";
 
-
-
 function App() {
   return (
     <div className="">
-      <NavBar/>
-      <Home/>
-      <About/>
-      <Project/>
-      <Contact/>
-     <SocialLinks/>
+      <NavBar />
+      <Home />
+      <About />
+      <Project />
+      <Contact />
+      <SocialLinks />
     </div>
   );
 }

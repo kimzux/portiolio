@@ -55,52 +55,51 @@ const About = () => {
               My Skills
             </h3>
             <div class="flex flex-col space-y-4">
-              <div class="flex space-x-4">
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+              <div class="flex flex-wrap gap-2 md:flex-nowrap">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>HTML</span>
                 </div>
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>CSS</span>
                 </div>
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>php</span>
                 </div>
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>laravel</span>
                 </div>
               </div>
-              <div class="flex space-x-4">
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+              <div class="flex flex-wrap gap-2 md:flex-nowrap">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>JavaScript</span>
                 </div>
-           <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>Typescript</span>
                 </div>
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>React</span>
                 </div>
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>Next</span>
                 </div>
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>Vue</span>
                 </div>
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>Git</span>
                 </div>
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>GitHub</span>
                 </div>
-               
               </div>
-              <div class="flex space-x-4">
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+              <div class="flex flex-wrap gap-2 md:flex-nowrap">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>Tailwind CSS</span>
                 </div>
-                <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>Responsive Design</span>
                 </div>
-                  <div class="flex items-center justify-center w-full px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
+                <div class="flex items-center justify-center px-3 py-3 bg-zinc-200 text-gray-800 font-semibold rounded">
                   <span>CI & CD</span>
                 </div>
               </div>

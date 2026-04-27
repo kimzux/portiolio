@@ -1,28 +1,26 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaDownload } from "react-icons/fa";
 import "tailwindcss/base.css";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+
   const links = [
-    {
-      id: 1,
-      link: "home",
-    },
-    {
-      id: 2,
-      link: "about",
-    },
-    {
-      id: 3,
-      link: "project",
-    },
-    {
-      id: 4,
-      link: "contact",
-    },
+    { id: 1, link: "home" },
+    { id: 2, link: "about" },
+    { id: 3, link: "project" },
+    { id: 4, link: "contact" },
   ];
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Zulfa-Rajabu Resume.pdf";
+    link.setAttribute("download", "Zulfa-Rajabu Resume.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-black ">
       <Link to="home" smooth duration={500}>
@@ -35,7 +33,7 @@ const Navbar = () => {
         </div>
       </Link>
 
-      <ul className="hidden mr-[300px] md:flex  xl:flex lg:flex 2xl:flex">
+      <ul className="hidden lg:mr-[300px] md:flex  xl:flex lg:flex 2xl:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -50,6 +48,14 @@ const Navbar = () => {
             </Link>
           </li>
         ))}
+        <li className="py-[12px] px-[24px] bg-purple cursor-pointer capitalize font-normal hover:scale-105 duration-200 font-san rounded-md text-white active:scale-[.98] active:duration-75 transition-all ease-in-out transform ml-4">
+          <button
+            onClick={handleDownload}
+            className="w-full h-full flex items-center justify-center gap-2"
+          >
+            <FaDownload /> CV
+          </button>
+        </li>
       </ul>
       <div
         onClick={() => setNav(!nav)}
@@ -61,7 +67,7 @@ const Navbar = () => {
       </div>
       {nav && (
         <ul
-          className={`flex flex-col justify-center items-center absolute top-0 left-[210px] w-full  bg-white rounded-md overflow-hidden shadow-md text-black  px-6 py-4 transition duration-200 ease-in-out ${
+          className={`flex flex-col justify-center items-center absolute top-0 left-0 w-full md:hidden bg-white rounded-md overflow-hidden shadow-md text-black px-6 py-4 transition duration-200 ease-in-out ${
             nav ? "transform scale-110" : ""
           }`}
         >
@@ -70,8 +76,8 @@ const Navbar = () => {
               key={id}
               className={
                 id === 4
-                  ? "py-[12px] px-[24px] bg-purple  cursor-pointer capitalize  font-normal text-base hover:scale-105 duration-200 font-san rounded-md mr-[200px] text-white active:scale-[.98] active:duration-75 transition-all  ease-in-out transform"
-                  : "px-4 cursor-pointer capitalize py-4 text-4 mr-[200px] hover:scale-105 duration-200"
+                  ? "py-[12px] px-[24px] bg-purple  cursor-pointer capitalize  font-normal text-base hover:scale-105 duration-200 font-san rounded-md w-full text-center text-white active:scale-[.98] active:duration-75 transition-all  ease-in-out transform mb-2"
+                  : "px-4 cursor-pointer capitalize py-4 text-4 w-full text-center hover:scale-105 duration-200"
               }
             >
               <Link
@@ -84,6 +90,17 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+          <li className="py-[12px] px-[24px] bg-purple cursor-pointer capitalize font-normal hover:scale-105 duration-200 font-san rounded-md text-white active:scale-[.98] active:duration-75 transition-all ease-in-out transform w-full text-center">
+            <button
+              onClick={() => {
+                handleDownload();
+                setNav(false);
+              }}
+              className="w-full h-full flex items-center justify-center gap-2"
+            >
+              <FaDownload /> CV
+            </button>
+          </li>
         </ul>
       )}
     </div>
